@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Taj English's Personal Portfolio Website">
+    <meta name="author" content="Taj English">
+    <link rel="icon" href="/images/Taj's_icon.png">
+    <title>Taj English · Front-End Developer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://v4-alpha.getbootstrap.com/examples/starter-template/starter-template.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+
+</head>
+<body class="bg-faded">
+    <!-- Welcome Msg -->
+        <h1 id = "welcomeMsg" class="welcomeMsg">Welcome To Taj's About Me Page</h1>
+    <!-- First container for bio information -->
+    <div id="1" class="container">
+        <div class="card card-block text-xs-center">
+            <div class="row" style="margin-top:60px">
+                <div class="col-md-6">
+                    <div class="card card-block">
+                        <h1 class="card-title">"Hi"</h1>
+                        <h4 class="card-title">Q.Who am I?</h4>
+                        <p class="card-text">A. I’m a Front-End and aspiring Full Stack Developer who is passionate about technology, business and entrepreneurship.</p>
+                        <img class="img-fluid" id="devLogo" src="images/webdev_logo.png" alt="Dev Logo">
+                    </div>
+                </div>
+                <div class="col-md-6 text-xs-right ">
+                    <img src="images/Taj.jpg" id="tajIMG" alt="Taj" class="img-fluid img-circle center-block ">
+                    <button type="button" name="AnimateLogo" onclick="document.getElementById('devLogo').className = 'animated flash'">Animate</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+
+                    <div class="card card-block text-xs-left">
+
+                        <h1 class="card-title">Q. What are my goals for 2016-2017?</h1>
+                        <p class="card-text">My goals for the current and coming year are to become the best developer I can be by learning the full tech stack for javascript and it's respective frameworks.</p>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="card card-block text-xs-left">
+                        <h1 class="card-title">Q. Do I have hobbies?</h1>
+                        <ol>
+                            <li>Code 24/7.</li>
+                            <li>BrainStorm Project Ideas.</li>
+                            <li>Experiment Like A Mad Scientist.</li>
+                            <li>Workout.</li>
+                            <li>Attend Developer Meetups & Conferences.</li>
+                        </ol>
+
+
+                    </div>
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="card card-block text-xs-left">
+
+                        <h1 class="card-title">Q. What Do I like about building software?</h1>
+                        <ol>
+                            <li>I love that you can impact billions of people.</li>
+                            <li>I’m a problem solver. The challenge I get from creating software is rewarding to me.</li>
+                            <li>I love to create something that will have a lasting and meaningful effect on people.</li>
+
+                        </ol>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Second Container for  contact information -->
+    <div id="2" class="container">
+        <div class="card card-block text-xs-center">
+            <div class="title">
+                <div class="row" style="margin-top:60px">
+                    <div class="col-lg-12">
+                        <h1>"Contact Me"</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:60px">
+                <div class="col-lg-3">
+                    <a href="https://www.linkedin.com/in/taj-english" target="_blank" class="btn btn-block btn-social btn-linkedin">
+                        <span class="fa fa-linkedin fa-5x"></span> Contact Me Here.
+                    </a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="https://github.com/itajenglish" target="_blank" class="btn btn-block btn-social btn-github">
+                        <span class="fa fa-github fa-5x"></span> See My Projects Here.
+                    </a>
+
+                </div>
+                <div class="col-lg-3">
+                    <a href="https://twitter.com/KINGiTAJ" target="_blank" class="btn btn-block btn-social btn-twitter">
+                        <span class="fa fa-twitter fa-5x"></span> Tweet Me Here.
+                    </a>
+
+
+                </div>
+                <div class="col-lg-3">
+                    <a class="btn btn-block btn-social btn-envelope" href="mailto:tajenglish@gmail.com" target="_top">
+                        <span class="fa fa-envelope fa-5x"></span> Email Me Here.
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer information -->
+    <div class="container">
+        <div class="card-footer text-xs-center">
+            Coded & Designed by <a href="https://www.linkedin.com/in/taj-english" target="_blank">Taj English</a>
+        </div>
+    </div>
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
